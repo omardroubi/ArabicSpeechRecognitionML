@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		366DBFC823DEF160007D36D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366DBFC723DEF160007D36D1 /* AppDelegate.swift */; };
+		366DBFCA23DEF160007D36D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366DBFC923DEF160007D36D1 /* SceneDelegate.swift */; };
+		366DBFCC23DEF160007D36D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366DBFCB23DEF160007D36D1 /* ViewController.swift */; };
+		366DBFCF23DEF160007D36D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366DBFCD23DEF160007D36D1 /* Main.storyboard */; };
+		366DBFD123DEF161007D36D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366DBFD023DEF161007D36D1 /* Assets.xcassets */; };
+		366DBFD423DEF161007D36D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366DBFD223DEF161007D36D1 /* LaunchScreen.storyboard */; };
+		366DBFE023E075FB007D36D1 /* ArabicSpeechRecognitionNumbers.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 366DBFDF23E075FB007D36D1 /* ArabicSpeechRecognitionNumbers.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		366DBFC423DEF160007D36D1 /* ArabicSpeechNumbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArabicSpeechNumbers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		366DBFC723DEF160007D36D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		366DBFC923DEF160007D36D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		366DBFCB23DEF160007D36D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		366DBFCE23DEF160007D36D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		366DBFD023DEF161007D36D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		366DBFD323DEF161007D36D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		366DBFD523DEF161007D36D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366DBFDF23E075FB007D36D1 /* ArabicSpeechRecognitionNumbers.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ArabicSpeechRecognitionNumbers.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		366DBFC123DEF160007D36D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		366DBFBB23DEF160007D36D1 = {
+			isa = PBXGroup;
+			children = (
+				366DBFC623DEF160007D36D1 /* ArabicSpeechNumbers */,
+				366DBFC523DEF160007D36D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		366DBFC523DEF160007D36D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				366DBFC423DEF160007D36D1 /* ArabicSpeechNumbers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		366DBFC623DEF160007D36D1 /* ArabicSpeechNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				366DBFDF23E075FB007D36D1 /* ArabicSpeechRecognitionNumbers.mlmodel */,
+				366DBFC723DEF160007D36D1 /* AppDelegate.swift */,
+				366DBFC923DEF160007D36D1 /* SceneDelegate.swift */,
+				366DBFCB23DEF160007D36D1 /* ViewController.swift */,
+				366DBFCD23DEF160007D36D1 /* Main.storyboard */,
+				366DBFD023DEF161007D36D1 /* Assets.xcassets */,
+				366DBFD223DEF161007D36D1 /* LaunchScreen.storyboard */,
+				366DBFD523DEF161007D36D1 /* Info.plist */,
+			);
+			path = ArabicSpeechNumbers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		366DBFC323DEF160007D36D1 /* ArabicSpeechNumbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366DBFD823DEF161007D36D1 /* Build configuration list for PBXNativeTarget "ArabicSpeechNumbers" */;
+			buildPhases = (
+				366DBFC023DEF160007D36D1 /* Sources */,
+				366DBFC123DEF160007D36D1 /* Frameworks */,
+				366DBFC223DEF160007D36D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArabicSpeechNumbers;
+			productName = ArabicSpeechNumbers;
+			productReference = 366DBFC423DEF160007D36D1 /* ArabicSpeechNumbers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		366DBFBC23DEF160007D36D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Omar Droubi";
+				TargetAttributes = {
+					366DBFC323DEF160007D36D1 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 366DBFBF23DEF160007D36D1 /* Build configuration list for PBXProject "ArabicSpeechNumbers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 366DBFBB23DEF160007D36D1;
+			productRefGroup = 366DBFC523DEF160007D36D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				366DBFC323DEF160007D36D1 /* ArabicSpeechNumbers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		366DBFC223DEF160007D36D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366DBFD423DEF161007D36D1 /* LaunchScreen.storyboard in Resources */,
+				366DBFD123DEF161007D36D1 /* Assets.xcassets in Resources */,
+				366DBFCF23DEF160007D36D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		366DBFC023DEF160007D36D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366DBFCC23DEF160007D36D1 /* ViewController.swift in Sources */,
+				366DBFC823DEF160007D36D1 /* AppDelegate.swift in Sources */,
+				366DBFE023E075FB007D36D1 /* ArabicSpeechRecognitionNumbers.mlmodel in Sources */,
+				366DBFCA23DEF160007D36D1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		366DBFCD23DEF160007D36D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				366DBFCE23DEF160007D36D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		366DBFD223DEF161007D36D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				366DBFD323DEF161007D36D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		366DBFD623DEF161007D36D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		366DBFD723DEF161007D36D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		366DBFD923DEF161007D36D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P86C3G39NW;
+				INFOPLIST_FILE = ArabicSpeechNumbers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = omardroubi.ArabicSpeechNumbers;
+				PRODUCT_NAME = ArabicSpeechNumbers;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		366DBFDA23DEF161007D36D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P86C3G39NW;
+				INFOPLIST_FILE = ArabicSpeechNumbers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = omardroubi.ArabicSpeechNumbers;
+				PRODUCT_NAME = ArabicSpeechNumbers;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		366DBFBF23DEF160007D36D1 /* Build configuration list for PBXProject "ArabicSpeechNumbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366DBFD623DEF161007D36D1 /* Debug */,
+				366DBFD723DEF161007D36D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		366DBFD823DEF161007D36D1 /* Build configuration list for PBXNativeTarget "ArabicSpeechNumbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366DBFD923DEF161007D36D1 /* Debug */,
+				366DBFDA23DEF161007D36D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 366DBFBC23DEF160007D36D1 /* Project object */;
+}
